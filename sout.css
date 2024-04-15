@@ -1,0 +1,37 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #00b0ff, #0088ff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-content {
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #0072ff;
+    font-size: 24px;
+    font-weight: bold;
+}
